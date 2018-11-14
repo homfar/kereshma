@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'A Mosalas';
-  src:</section>
+  src:
         url('./A-Mosalas.eot?') format('embedded-opentype'),
         url('./A-Mosalas.woff') format('woff'),
         url('./A-Mosalas.woff2') format('woff2'),
@@ -19,13 +19,9 @@
 body{
 font-family: "Sahel";
 margin: 0;
-padding: 0px;
+padding: 0;
 background-image: url("memphis-colorful.png") ;
 background-repeat: round;
-}
-
-section{
-
 }
 
 
@@ -132,10 +128,8 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 width: 50%;
 background-color: #e6e6e6;
 border-radius: 10px;
-margin-left:.5%;
 margin: auto; 
 overflow: auto;
-padding-top: 1.4%;
 
 }
 
@@ -146,11 +140,13 @@ background-color: #fff;
 border-radius: 10px;
 margin-left :2.5%;
 margin-bottom: 2.5%;
+margin-top: 2.5%;
 float: left; 
  } 
+
 #boxes .box img {
-margin-left: 25%;
-width: 50%;
+margin-left:30%;
+width: 40%;
 }
 
 #boxes .box h1{
@@ -165,7 +161,7 @@ text-align: justify;
 padding-left: 32px;
 padding-right: 32px;
 padding-bottom: 5px;
-font-size: 131%;
+font-size: 96%;
 }
 
 #boxes .box1{
@@ -175,8 +171,8 @@ background-color: #fff;
 border-radius: 10px;
 margin-left: 2.5%;
 margin-bottom: 2.5%;
-padding-bottom: 5%;
-padding-top: 5%;
+margin-top: 2.5%;
+padding: 25px 0 25px 0;
  } 
  
  #boxes .box1 p{
@@ -262,10 +258,8 @@ font-size: 12px;
 width: 98%;
 background-color: #e6e6e6;
 border-radius: 10px;
-margin-left:.5%;
+margin: auto;
 overflow: auto;
-padding-top: 1.5%;
-float: left;
 }	
 	
 .slides{
@@ -304,18 +298,12 @@ padding: 15px;
 font-size: 12px;
 }
 
-.container1{
-visibility: hidden;
-}
-
 .container{
 width: 98%;
 background-color: #e6e6e6;
 border-radius: 10px;
-margin-left:.5%;
+margin: auto;
 overflow: auto;
-padding-top: 1.5%;
-float: left;
 }
 
 .slides{
